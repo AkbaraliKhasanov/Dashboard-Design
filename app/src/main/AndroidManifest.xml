@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidDashboard">
         <activity
-            android:name=".MainActivity"
+            android:name="uz.akbarali.androiddashboard.MainActivity"
             android:exported="true"
             android:theme="@style/FullScreen">
             <intent-filter>

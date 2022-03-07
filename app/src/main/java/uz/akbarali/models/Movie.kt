@@ -1,4 +1,4 @@
-package com.example.models
+package uz.akbarali.models
 
 class Movie {
     var name: String? = null

@@ -1,14 +1,14 @@
-package com.example.androiddashboard
+package uz.akbarali.androiddashboard
 
-import android.os.Binder
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
-import com.example.adapter.MoviesAdapter
+import com.example.androiddashboard.R
+import uz.akbarali.adapter.MoviesAdapter
 import com.example.androiddashboard.databinding.ActivityMainBinding
-import com.example.models.Movie
+import uz.akbarali.models.Movie
 import kotlin.math.abs
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.androiddashboard
+package uz.akbarali.androiddashboard
 
 import org.junit.Test
 

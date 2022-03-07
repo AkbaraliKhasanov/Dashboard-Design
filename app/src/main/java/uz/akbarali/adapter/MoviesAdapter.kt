@@ -1,10 +1,10 @@
-package com.example.adapter
+package uz.akbarali.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androiddashboard.databinding.ItemContainerMovieBinding
-import com.example.models.Movie
+import uz.akbarali.models.Movie
 
 class MoviesAdapter(private val list: ArrayList<Movie>) : RecyclerView.Adapter<MoviesAdapter.Vh>() {
     inner class Vh(private val binding: ItemContainerMovieBinding) :
